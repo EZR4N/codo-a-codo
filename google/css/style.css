@@ -1,0 +1,108 @@
+
+a{
+    color:black;
+    text-decoration: none;
+    
+}
+
+a:hover{
+    text-decoration: underline;
+    text-decoration-color: black;
+    -moz-text-decoration-color: black;
+}
+footer{
+    position: absolute;
+    bottom:0;
+    left: 0;
+    display: flex;
+    width: 100vw;
+    background-color: #F2F2F2;
+    color:#70757A;
+    ;
+}
+
+
+
+
+.barra{
+    position: absolute;
+    top: 14px;
+    left: 95%;
+}
+
+.usuario{
+    position: absolute;
+    top: -2px;
+    left: 37px;
+    border-radius: 55px;
+    -webkit-border-radius: 55px;
+    -moz-border-radius: 55px;
+    -ms-border-radius: 55px;
+    -o-border-radius: 55px;
+}
+
+.gmailimagenes{
+    position: absolute;
+    top: 19px;
+    left: 88%;
+}
+.googleapp{
+display: flex;
+}
+
+.buscador{
+    display: flex;
+    position: absolute;
+    top: 300px;
+    left: 723px;
+}
+
+.cuadrobuscador{
+    width: 34rem;
+    height: 3rem;
+    border-radius: 39px;
+    box-shadow: 0px 0px 7px -1px #808080;
+    display: flex;
+    position: absolute;
+    top: 530px;
+    left: 655px;
+    text-align: center;
+}
+
+.ingrese{
+    position: absolute;
+    top: 529px;
+    left:  703px;
+    color:grey;
+}
+
+.lupa{
+    position: absolute;
+    top: 9px;
+    left: 8px;
+    height: 30px;
+
+}
+
+.microfono{
+    position:absolute;
+    top: 9px;
+    left: 490px;
+    height: 30px;
+}
+
+.barrainfder{
+    display: inline;
+    margin: 10px;
+    list-style-type: none;
+}
+.barrainfizq{
+    display: inline;
+    margin: 10px;
+    list-style-type: none;
+    justify-content: left;
+}
+
+#priv{
+    margin-left: 900px;
+}
