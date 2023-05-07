@@ -16,13 +16,15 @@
 
 
 
-
+.navbar-brand{
+    margin-left: 5rem;
+}
 .presentacion{
     width: 99vww;
     height: 80vh;
     position: relative;
     
-    margin-bottom: 1rem;
+    margin-bottom: 11rem;
 }
 
 
@@ -111,15 +113,19 @@
 }
 
 .cartitasOradores{
+    display: flex;
     margin-top: 3rem;
     margin-bottom: 3rem;
 }
 .cartasOradores{
+    
     justify-content: center;
+    
 }
 
 .ubicacionCartas{
     margin-left: 1.5rem ;
+    flex-wrap: wrap;
 }
 
 .botonesCarta{
@@ -256,11 +262,18 @@
 h3{
     color: #FFFFFF !important;
     font-family: 'Carlito', sans-serif;
-    font-size: calc(1em + 1vw);
+    
 }   
 
 
-@media screen and (max-width: 1400px){
+
+
+
+
+
+
+
+    @media screen and (max-width: 1400px){
     .conoceAlosOradores{
         margin-top: 9rem;
     }
@@ -281,9 +294,15 @@ h3{
     display: block;
     
     position: absolute;
-    right: -15rem;
-    top:6rem;
+    right: -22rem !important;
+    top:2rem !important;
     }
+    }
+
+    @media screen and (max-width: 1300px){
+        .botonesPresentacion{
+            right: -19rem !important;
+        }
     }
 
     @media screen and (max-width: 1200px){
@@ -293,7 +312,10 @@ h3{
             right: 1rem;
         }
         
-    
+        
+        .fondoApagado{
+            height: 150%;
+        }
         .texto{
         font-size: 1.2rem !important;
         position: absolute;
@@ -305,10 +327,17 @@ h3{
         display: flex;
     
         
-        right: -15rem;
-        top:1rem;
+        right: -15rem !important;
+        top: 2rem !important;
+    }
+
+
+    .conoceAlosOradores{
+        margin-top: 20rem !important;
     }
     }
+
+
 
     @media screen and (max-width: 1050px){
 
@@ -341,7 +370,7 @@ h3{
     
         
         right: -9rem !important;
-        top:3rem ;
+        top: 1-rem  !important;
     }
     
     
@@ -362,6 +391,10 @@ h3{
     
 }
 
+.cartitasOradores{
+    display: block;
+}
+
 .bannerInferior{
     height: 25vh;;
 }
@@ -377,10 +410,7 @@ h3{
 }
 
 
-.botonesCarta{
-    display: flex;
-    flex-wrap: wrap;
-}
+
 .btn-info, .btn-secondary, .btn-danger, .btn-warning{
     font-size: 0.7rem !important;
 }
@@ -406,7 +436,7 @@ h3{
 
         
         right: -2rem !important;
-        top: 4rem ;
+        top: 5rem !important;
     }
     .fondoApagado{
         height: 172%; 
@@ -417,15 +447,22 @@ h3{
         height: 50vh !important;
         justify-content: center;
     }
+
+    .bannerInferior li{
+        margin-left: 1rem;
+        font-size: 0.9rem !important;
+    }
     .ordenBannerInferior{
 
-        display: block;
+        
         justify-content: center;
     }
 
     .ordenBannerInferior li{
         text-align: start;
     }
+
+    
 }
 
 @media screen and (max-width: 650px){
@@ -460,7 +497,7 @@ h3{
 
     .tituloConfBsAs{
         top: -4rem;
-        right: 1rem;
+        right: 3rem;
     }
 
     .texto{
@@ -471,6 +508,7 @@ h3{
 }
     .presentacion{
         height: 15rem;
+        margin-bottom: 4.5rem;
     }
 
     .botonesPresentacion{
@@ -478,16 +516,40 @@ h3{
         display: flex;
 
         
-        right: 1rem !important;
-        top: 2rem ;
+        right: 3rem !important;
+        top: 2rem !important;
     }
     .fondoApagado{
-        height: 129%; 
+        height: 105%; 
         background-color: #353A4075 !important;
     }
 
+    .paraDar p, a{
+        font-size: 0.6rem !important;
+    }
+
+    .formularioOrden input::placeholder{
+        font-size: 0.5rem !important;
+    }
+
+    .formularioOrden2  textarea::placeholder{
+        font-size: 0.7rem !important;
+    }
+    .formularioOrden3   p{
+        font-size: 0.5rem !important;
+    }
+
+
+    .formularioOrden2  textarea{
+        font-size: 0.7rem !important;
+    }
+
+    .formularioOrden input{
+        font-size: 0.5rem !important;
+    }
+
     .bannerInferior{
-        height: 60vh !important;
+        height: 90vh !important;
         justify-content: center;
     }
     .ordenBannerInferior{
@@ -501,21 +563,21 @@ h3{
     }
 }
 
-@media screen and (max-width: 430px){
+@media screen and (max-width: 470px){
 
-    .tituloConfBsAs{
-        top: -4rem;
+    .texto{
+        font-size: 0.6rem !important;
+        position: absolute;
+        top: -2rem !important;
         right: 1rem;
     }
 
-    .texto{
+    .bannerCarrusel h5{
     font-size: 0.8rem !important;
-    position: absolute;
-    top: -2rem !important;
-    right: 1rem;
-}
+    }
     .presentacion{
         height: 15rem;
+        margin-bottom: 4rem ;
     }
 
     .botonesPresentacion{
@@ -523,16 +585,28 @@ h3{
         display: flex;
 
         
-        right: 1rem;
-        top: 4rem;
+        right: 1rem !important;
+        top: -4rem !important;
     }
 
-    .botonesPresentacion btn{
-        height: 20% !important;
+    
+
+    .botonesPresentacion{
+        width: 30%;
+        height: 50%;
+        display: flex;
+
+        
+        right: 1rem !important;
+        top: -1rem !important;
+    }
+
+    .botonesPresentacion button{
+        font-size: 0.3rem !important;
     }
 
     .fondoApagado{
-        height: 50%; 
+        height: 80%; 
         background-color: #353A4075 !important;
     }
     .botonesCarrusel{
@@ -549,14 +623,30 @@ h3{
 
     .botonesCarta{
         display: flex;
-        flex-wrap: wrap;
+        flex-wrap: nowrap;
     }
     .btn-info, .btn-secondary, .btn-danger, .btn-warning{
         font-size: 0.7rem !important;
     }
 
+    .paraDar p, a{
+        font-size: 0.4rem !important;
+    }
+
+
+    .formularioOrden input::placeholder{
+        font-size: 0.4rem d!important;
+    }
+
+    .formularioOrden2  textarea::placeholder{
+        font-size: 0.6rem !important;
+    }
+    .formularioOrden3   p{
+        font-size: 0.4rem !important;
+    }
+
     .bannerInferior{
-        height: 50vh !important;
+        height: 160vh !important;
         justify-content: center;
     }
     .ordenBannerInferior{
@@ -568,10 +658,129 @@ h3{
     .ordenBannerInferior li{
         text-align: start;
     }
+    
+    header navbar{
+        display: flex;
+        flex-wrap: nowrap;
+    }
+    .navbar-brand{
+        margin-right: 0px !important;
+        margin-left: 3px !important;
+        position: relative;
+        right: 1.6rem !important;
+    }
+    
+    .navbar-brand img{
+        width: 6rem !important;
+    }
+    
+    
+    .fondobanner1 div h3{
+        font-size: 0.7rem !important;
+        
+    }
+
+
+}
+@media screen and (max-width: 400px){
+    .navbar-brand{
+        margin-left: 3px !important;
+        position: relative;
+        right: 1.6rem !important;
+    }
+}
+@media screen and (max-width: 300px){
+
+    .navbar-brand{
+        margin-left: 8px !important;
+        position: relative;
+        right: 1.6rem !important;
+    }
+    
+    .navbar-brand img{
+        width: 4rem !important;
+    }
+    
+    
+    
+
+    .fondobanner1 button{
+        margin-right: 1rem;
+    }
+
+    .bannerInferior{
+        height: 200vh !important;
+    }
+    .paraDar p, a{
+        font-size: 0.3rem !important;
+    }
+
+    .formularioOrden2 textarea{
+        font-size: 0.4rem !important;
+    }
+
+    .texto{
+        font-size: 0.4rem !important;
+        position: absolute;
+        top: -5rem !important;
+        right: 1rem;
+    }
+
+    .bannerCarrusel h3{
+    font-size: 0.9rem !important;
+    }
+
+    .tituloConfBsAs{
+        top: -6rem;
+        right: 1rem;
+    }
+
+    .botonesPresentacion{
+        width: 30%;
+        height: 50%;
+        display: flex;
+
+        
+        right: 2rem !important;
+        top: -5rem !important;
+    }
+
+    .botonesPresentacion button{
+        font-size: 0.3rem !important;
+    }
+
+    .fondoApagado{
+        height: 55.5%;
+    }
+
+    .navbar-brand img{
+        width: 50vw;
+    }
 
 }
 
+@media screen and (max-width: 280px){
+    
 
+    .fondoApagado{
+        height: 109.5%;
+    }
+
+    .presentacion{
+        height: 90vh !important; 
+        margin-bottom: 1rem !important;
+    }
+
+    .conoceAlosOradores{
+        margin-top: 3rem !important;
+    }
+
+    .botonesPresentacion  button{
+        height: 29vh !important;
+        top: -5rem !important;
+        right: 2rem !important;
+    }
+}
 
 
 
