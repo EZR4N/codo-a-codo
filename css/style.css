@@ -1,0 +1,787 @@
+@import url('https://fonts.googleapis.com/css2?family=Carlito&display=swap');
+
+
+.fondobanner1{
+    background-color: #353A40;
+    
+    display: flex;
+    justify-content: center;
+}
+
+.comprar{
+    color: #29A63C !important;
+}
+
+
+
+
+
+.navbar-brand{
+    margin-left: 5rem;
+}
+.presentacion{
+    width: 99vww;
+    height: 80vh;
+    position: relative;
+    
+    margin-bottom: 11rem;
+}
+
+
+.carousel{
+    max-width: 99vw !important;
+}
+
+.carrusel{
+    height:20rem;
+    width: 100vw;
+    
+}
+
+.bannerCarrusel{
+    position: relative;
+    display: block;
+    height:39rem ;
+}
+.itemCarrusel{
+    height: 39rem;
+    width: 100vw;
+    
+}
+
+.carousel-item{
+    max-width: 100vw !important;
+}
+.imagenesCarrusel{
+    object-fit: cover
+    ;
+}
+.botonesCarrusel{
+    position: absolute;
+    
+}
+
+.fondoApagado{
+    width: 98.5vw;
+    height: 39rem;
+    background-color: #353A4075;
+
+    position: absolute;
+    top: 0px;
+}
+
+.tituloConfBsAs{
+    position: absolute;
+    right: 8rem;
+    top: -3rem;
+}
+.confBsAs{
+    color:#FFFFFF !important;
+    font-family: 'Carlito', sans-serif;
+    font-size: 3rem !important;
+}
+.texto{
+    color:#FFFFFF !important;
+    font-family: 'Carlito', sans-serif;
+    text-align: right;
+    font-size: 1.3rem;
+    
+    position: absolute;
+    right: 8rem;
+    top: 1rem;
+    margin-bottom: 6rem;
+}
+
+.botonesPresentacion{
+    position: absolute;
+    right: 8rem;
+    top: 9rem;
+    margin-top: 3rem;
+}
+
+
+
+.conoceA{
+    color: #353A40 !important;
+    text-align: center;
+    
+}
+
+.tituloOradores{
+    text-align: center;
+    color: black !important;
+}
+
+.cartitasOradores{
+    display: flex;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+.cartasOradores{
+    
+    justify-content: center;
+    
+}
+
+.ubicacionCartas{
+    margin-left: 1.5rem ;
+    flex-wrap: wrap;
+}
+
+.botonesCarta{
+    height: 1.5rem;
+    display: flex;
+    margin-bottom: 1.5rem;
+}
+
+.botonCarta{
+    height: 100%;
+    margin-left: 0.3rem;
+    position: relative;
+    
+}
+
+.btn-warning{
+    color: #000 !important;
+    font-weight: 880 !important;
+    
+    }
+
+.btn-info, .btn-secondary, .btn-danger{
+    color: #FEFEFE !important;
+    font-weight: 700 !important;
+}
+
+.cartaHorizontal{
+    background-color: #353A40 !important;
+}
+
+.cartaHonolulu{
+    color: white !important;
+}
+
+.elFormulario{
+    margin-bottom: 2rem;
+}
+
+.paraDar{
+    display: flex !important;
+    text-align: center;
+    justify-content: center;
+}
+
+.anotate{
+    font-size: 1rem;
+    margin-left: 0.4rem;
+
+}
+
+.formularioOrden{
+    display: flex;
+    justify-content: center;
+}
+
+.formularioNombreApellido{
+    display: flex;
+    
+}
+
+.formularioOrden2{
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem !important;
+}
+.formularioOrden3{
+    display: flex;
+    justify-content: center;
+}
+
+.formularioOrden3 p{
+    color: dimgray;
+}
+
+.formularioOrden4{
+    display: flex;
+    justify-content: center;
+}
+
+.sobreQueHablar{
+    height: 7rem !important;
+    font-size: 1em;
+}
+
+.sobreQueHablar::placeholder{
+    font-size: 2em;
+}
+
+.botonEnviar{
+    background-color: #95BF3B !important;
+    color: #FFFFFF !important;
+    font-size: 1.5em !important;
+}
+
+
+
+
+
+.bannerInferior{
+    background-color: #1D475F;
+    height: 15vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ordenBannerInferior{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.itemBannerInferior{
+    margin-left: 4rem;
+    text-align: center;
+}
+
+.itemBannerInferior a{
+    color:#FFFFFF;
+    text-decoration: none !important;
+}
+
+.bannerInferior ul{
+    list-style: none;
+}
+
+.bannerInferior li{
+    color: #FFFFFF;
+    text-align: center;
+    margin-left: 2rem;
+}
+
+h3{
+    color: #FFFFFF !important;
+    font-family: 'Carlito', sans-serif;
+    
+}   
+
+
+
+
+
+
+
+
+
+    @media screen and (max-width: 1400px){
+    .conoceAlosOradores{
+        margin-top: 9rem;
+    }
+    
+    .tituloConfBsAs{
+        top: -12rem;
+        right: 1rem;
+    }
+    
+    .texto{
+    font-size: 1.3rem !important;
+    position: absolute;
+    top: -8rem ;
+    right: 1rem;
+    }
+    .botonesPresentacion{
+    width: 50%;
+    display: block;
+    
+    position: absolute;
+    right: -22rem !important;
+    top:2rem !important;
+    }
+    }
+
+    @media screen and (max-width: 1300px){
+        .botonesPresentacion{
+            right: -19rem !important;
+        }
+    }
+
+    @media screen and (max-width: 1200px){
+        
+        .tituloConfBsAs{
+            top: -12rem;
+            right: 1rem;
+        }
+        
+        
+        .fondoApagado{
+            height: 150%;
+        }
+        .texto{
+        font-size: 1.2rem !important;
+        position: absolute;
+        top: -8rem !important;
+        right: 1rem;
+    }
+    .botonesPresentacion{
+        width: 50%;
+        display: flex;
+    
+        
+        right: -15rem !important;
+        top: 2rem !important;
+    }
+
+
+    .conoceAlosOradores{
+        margin-top: 20rem !important;
+    }
+    }
+
+
+
+    @media screen and (max-width: 1050px){
+
+        
+    
+        .imagenesCarrusel{
+            object-fit: contain;
+        }
+        .carrouesel-inner{
+            margin-bottom: 15rem !important;
+        }
+        .conoceAlosOradores{
+            margin-top: 15rem;
+        }
+    
+        .tituloConfBsAs{
+            top: -12rem;
+            right: 1rem;
+        }
+    
+        .texto{
+        font-size: 1rem !important;
+        position: absolute;
+        top: -5rem  !important;
+        right: 1rem;
+    }
+    .botonesPresentacion{
+        width: 50%;
+        display: flex;
+    
+        
+        right: -9rem !important;
+        top: 1-rem  !important;
+    }
+    
+    
+        .texto{
+            font-size:  1rem;
+        }
+        .fondoApagado{
+            background-color: #353A4075;
+            height: 124%;
+        }
+    }
+
+
+@media screen and (max-width: 800px){
+    .bannerCarrusel{
+    position: relative;
+    top: -14rem;
+    
+}
+
+.cartitasOradores{
+    display: block;
+}
+
+.bannerInferior{
+    height: 25vh;;
+}
+
+.texto{
+    font-size: 0.9rem;
+    top: 0.1rem;
+}
+
+ 
+.confBsAs{
+    font-size: 1.5rem !important;
+}
+
+
+
+.btn-info, .btn-secondary, .btn-danger, .btn-warning{
+    font-size: 0.7rem !important;
+}
+
+    .tituloConfBsAs{
+        top: -4rem;
+        right: 1rem;
+    }
+
+    .texto{
+    font-size: 0.9rem !important;
+    position: absolute;
+    top: -2rem !important;
+    right: 1rem !;
+}
+    .presentacion{
+        height: 15rem;
+    }
+
+    .botonesPresentacion{
+        width: 50%;
+        display: flex;
+
+        
+        right: -2rem !important;
+        top: 5rem !important;
+    }
+    .fondoApagado{
+        height: 172%; 
+        background-color: #353A4075 !important;
+    }
+
+    .bannerInferior{
+        height: 50vh !important;
+        justify-content: center;
+    }
+
+    .bannerInferior li{
+        margin-left: 1rem;
+        font-size: 0.9rem !important;
+    }
+    .ordenBannerInferior{
+
+        
+        justify-content: center;
+    }
+
+    .ordenBannerInferior li{
+        text-align: start;
+    }
+
+    
+}
+
+@media screen and (max-width: 650px){
+    .bannerCarrusel{
+    position: relative;
+    top: -14rem;
+    
+}
+
+.bannerInferior{
+    height: 25vh;;
+}
+
+.texto{
+    font-size: 0.9rem;
+    top: 0.1rem;
+}
+
+ 
+.confBsAs{
+    font-size: 1.5rem !important;
+}
+
+
+.botonesCarta{
+    display: flex;
+    flex-wrap: wrap;
+}
+.btn-info, .btn-secondary, .btn-danger, .btn-warning{
+    font-size: 0.7rem !important;
+}
+
+    .tituloConfBsAs{
+        top: -4rem;
+        right: 3rem;
+    }
+
+    .texto{
+    font-size: 0.9rem !important;
+    position: absolute;
+    top: -2rem !important;
+    right: 3rem !;
+}
+    .presentacion{
+        height: 15rem;
+        margin-bottom: 4.5rem;
+    }
+
+    .botonesPresentacion{
+        width: 50%;
+        display: flex;
+
+        
+        right: 3rem !important;
+        top: 2rem !important;
+    }
+    .fondoApagado{
+        height: 105%; 
+        background-color: #353A4075 !important;
+    }
+
+    .paraDar p, a{
+        font-size: 0.6rem !important;
+    }
+
+    .formularioOrden input::placeholder{
+        font-size: 0.5rem !important;
+    }
+
+    .formularioOrden2  textarea::placeholder{
+        font-size: 0.7rem !important;
+    }
+    .formularioOrden3   p{
+        font-size: 0.5rem !important;
+    }
+
+
+    .formularioOrden2  textarea{
+        font-size: 0.7rem !important;
+    }
+
+    .formularioOrden input{
+        font-size: 0.5rem !important;
+    }
+
+    .bannerInferior{
+        height: 90vh !important;
+        justify-content: center;
+    }
+    .ordenBannerInferior{
+
+        display: block;
+        justify-content: center;
+    }
+
+    .ordenBannerInferior li{
+        text-align: start;
+    }
+}
+
+@media screen and (max-width: 470px){
+
+    .texto{
+        font-size: 0.6rem !important;
+        position: absolute;
+        top: -2rem !important;
+        right: 1rem;
+    }
+
+    .bannerCarrusel h5{
+    font-size: 0.8rem !important;
+    }
+    .presentacion{
+        height: 15rem;
+        margin-bottom: 4rem ;
+    }
+
+    .botonesPresentacion{
+        width: 50%;
+        display: flex;
+
+        
+        right: 1rem !important;
+        top: -4rem !important;
+    }
+
+    
+
+    .botonesPresentacion{
+        width: 30%;
+        height: 50%;
+        display: flex;
+
+        
+        right: 1rem !important;
+        top: -1rem !important;
+    }
+
+    .botonesPresentacion button{
+        font-size: 0.3rem !important;
+    }
+
+    .fondoApagado{
+        height: 80%; 
+        background-color: #353A4075 !important;
+    }
+    .botonesCarrusel{
+        z-index: 0 !important;
+    }
+
+    .bannerCarrusel{
+        height: 29%;
+    }
+
+    .conoceAlosOradores{
+        margin-top: 1rem !important;
+    }
+
+    .botonesCarta{
+        display: flex;
+        flex-wrap: nowrap;
+    }
+    .btn-info, .btn-secondary, .btn-danger, .btn-warning{
+        font-size: 0.7rem !important;
+    }
+
+    .paraDar p, a{
+        font-size: 0.4rem !important;
+    }
+
+
+    .formularioOrden input::placeholder{
+        font-size: 0.4rem d!important;
+    }
+
+    .formularioOrden2  textarea::placeholder{
+        font-size: 0.6rem !important;
+    }
+    .formularioOrden3   p{
+        font-size: 0.4rem !important;
+    }
+
+    .bannerInferior{
+        height: 160vh !important;
+        justify-content: center;
+    }
+    .ordenBannerInferior{
+
+        display: block;
+        justify-content: center;
+    }
+
+    .ordenBannerInferior li{
+        text-align: start;
+    }
+    
+    header navbar{
+        display: flex;
+        flex-wrap: nowrap;
+    }
+    .navbar-brand{
+        margin-right: 0px !important;
+        margin-left: 3px !important;
+        position: relative;
+        right: 1.6rem !important;
+    }
+    
+    .navbar-brand img{
+        width: 6rem !important;
+    }
+    
+    
+    .fondobanner1 div h3{
+        font-size: 0.7rem !important;
+        
+    }
+
+
+}
+@media screen and (max-width: 400px){
+    .navbar-brand{
+        margin-left: 3px !important;
+        position: relative;
+        right: 1.6rem !important;
+    }
+}
+@media screen and (max-width: 300px){
+
+    .navbar-brand{
+        margin-left: 8px !important;
+        position: relative;
+        right: 1.6rem !important;
+    }
+    
+    .navbar-brand img{
+        width: 4rem !important;
+    }
+    
+    
+    
+
+    .fondobanner1 button{
+        margin-right: 1rem;
+    }
+
+    .bannerInferior{
+        height: 200vh !important;
+    }
+    .paraDar p, a{
+        font-size: 0.3rem !important;
+    }
+
+    .formularioOrden2 textarea{
+        font-size: 0.4rem !important;
+    }
+
+    .texto{
+        font-size: 0.4rem !important;
+        position: absolute;
+        top: -5rem !important;
+        right: 1rem;
+    }
+
+    .bannerCarrusel h3{
+    font-size: 0.9rem !important;
+    }
+
+    .tituloConfBsAs{
+        top: -6rem;
+        right: 1rem;
+    }
+
+    .botonesPresentacion{
+        width: 30%;
+        height: 50%;
+        display: flex;
+
+        
+        right: 2rem !important;
+        top: -5rem !important;
+    }
+
+    .botonesPresentacion button{
+        font-size: 0.3rem !important;
+    }
+
+    .fondoApagado{
+        height: 55.5%;
+    }
+
+    .navbar-brand img{
+        width: 50vw;
+    }
+
+}
+
+@media screen and (max-width: 280px){
+    
+
+    .fondoApagado{
+        height: 109.5%;
+    }
+
+    .presentacion{
+        height: 90vh !important; 
+        margin-bottom: 1rem !important;
+    }
+
+    .conoceAlosOradores{
+        margin-top: 3rem !important;
+    }
+
+    .botonesPresentacion  button{
+        height: 29vh !important;
+        top: -5rem !important;
+        right: 2rem !important;
+    }
+}
+
+
+
+
