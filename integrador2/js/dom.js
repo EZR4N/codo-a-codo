@@ -46,7 +46,7 @@ const submit = (e) => {
         alert('Por favor complete todos los campos de texto');
     return
     }else{
-        location.href='/integrador2/exito.html'
+        location.href='/codo-a-codo/integrador2/exito.html'
     }
     
 }
