@@ -2,7 +2,7 @@ const buttons =document.getElementsByClassName('comprarTickets')
 
 const btnClick= (e)=>{
     console.log('hola')
-    location.href='/integrador2/index.html'
+    location.href='/codo-a-codo/integrador2/index.html'
 }
 
 buttons[0].addEventListener('click', btnClick, false)
