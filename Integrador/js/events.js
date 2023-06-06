@@ -1,7 +1,7 @@
 const buttons =document.getElementsByClassName('comprarTickets')
 
 const btnClick= (e)=>{
-    consolo.log('hola')
+    console.log('hola')
     location.href='/integrador2/index.html'
 }
 
